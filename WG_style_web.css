@@ -1,0 +1,142 @@
+/* -------------------------------------------------- */
+
+body {
+    background-color: lightgreen;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.zoneTexte {
+    background: #f0f0df;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    float: center;
+}
+
+summary {
+    text-align: center;
+}
+
+    summary:hover {
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+
+/* -------------------------------------------------- */
+/* Colonnes------------------------------------------ */
+
+.colonnesDeux {
+    width: 45%;
+    float: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.colonnes {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* -------------------------------------------------- */
+/* Titres ------------------------------------------- */
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+/* -------------------------------------------------- */
+/* Colles ------------------------------------------- */
+
+.collesColle {
+    width: 40%; 
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: solid lightgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.collesColleTitre {
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.collesPeriode {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collesSujets {
+    color:white;
+    text-align: center;
+    padding: 3px;
+    background-color: lightseagreen;
+    border-radius: 10px 10px 10px 10px;
+    margin: 3px;
+    justify-content: space-around;
+}
+
+    .collesSujets:hover {
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+.collesIndications {
+    color:white;
+    text-align: center;
+    padding: 3px;
+    background-color: orange;
+    border-radius: 10px 10px 10px 10px;
+    margin: 3px;
+    justify-content: space-around;
+}
+
+    .collesIndications:hover {
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+.collesCorrections {
+    color:white;
+    text-align: center;
+    padding: 3px;
+    background-color: lightcoral;
+    border-radius: 10px 10px 10px 10px;
+    margin: 3px;
+    justify-content: space-around;
+}
+
+    .collesCorrections:hover {
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
