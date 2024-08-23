@@ -1,7 +1,10 @@
 /* -------------------------------------------------- */
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: lightskyblue;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +19,7 @@ body {
 }
 
 header {
+    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -35,9 +39,12 @@ summary {
     }
 
 .page {
+    align-items: center;
+    float: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-around;
 }
 
@@ -96,12 +103,30 @@ a {
     font-style: italic;
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     .titre_page {
         width: 95%;
+        font-size: 2em;
     }
     .titre_site_page {
         width: 95%;
+        font-size: 1.9em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
     }
     }
 
@@ -132,26 +157,11 @@ a {
     }
     }
 
-/* -------------------------------------------------- */
-/* Titres ------------------------------------------- */
-
-
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-
 
 /* -------------------------------------------------- */
 /* Documents ---------------------------------------- */
 
 .docLesDocs {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
