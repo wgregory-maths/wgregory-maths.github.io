@@ -48,6 +48,10 @@ summary {
     justify-content: space-around;
 }
 
+.link {
+    color: rgb(11, 102, 199);
+}
+
 a {
     text-decoration: none;
 }
@@ -72,12 +76,39 @@ a {
     }
     }
 
+
+/* -------------------------------------------------- */
+/* Menu --------------------------------------------- */
+
+
+nav {
+    align-items: center;
+    float: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item_menu {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(11, 102, 199);
+    margin: 5px;
+    justify-content: space-around;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+
 /* -------------------------------------------------- */
 /* Titres ------------------------------------------- */
 
 .titre_site {
     font-family: 'Lobster';
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
     color: whitesmoke;
     text-shadow: 10px 10px 10px rgba(0,0,0,0.2);
@@ -137,6 +168,7 @@ h2 {
 .colonnesDeux {
     width: 45%;
     float: center;
+    vertical-align: top;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
