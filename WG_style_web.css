@@ -5,7 +5,8 @@ body {
     flex-direction: column;
     margin: auto;
     flex-wrap: wrap;
-    justify-content: center;
+    /* align-items: top;
+    justify-content: center; */
     background-color: lightskyblue;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +16,8 @@ body {
     margin: 10px;
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
-    float: center;
+    vertical-align: top;
+    /* float: center; */
 }
 
 header {
@@ -39,12 +41,13 @@ summary {
     }
 
 .page {
-    align-items: center;
+    align-items: top;
+    /* vertical-align: top; */
     float: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
     justify-content: space-around;
 }
 
@@ -67,6 +70,7 @@ a {
         justify-content: center;
     }
     .page {
+        align-items: center;
         flex-direction: column;
         justify-content: center;
     }
@@ -167,8 +171,13 @@ h2 {
 
 .colonnesDeux {
     width: 45%;
-    float: center;
-    vertical-align: top;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.colonnesDeuxB {
+    width: 50%;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
@@ -176,11 +185,10 @@ h2 {
 
 .colonnes {
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 @media (max-width: 1000px) {
