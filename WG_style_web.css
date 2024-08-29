@@ -149,6 +149,9 @@ h2 {
 }
 
 @media (max-width: 1000px) {
+    .titre_site {
+        font-size: 2em;
+    }
     .titre_page {
         width: 95%;
         font-size: 2em;
