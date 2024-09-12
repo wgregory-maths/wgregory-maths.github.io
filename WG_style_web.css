@@ -111,7 +111,7 @@ nav {
 /* Titres ------------------------------------------- */
 
 .titre_site {
-    font-family: 'Lobster';
+    /* font-family: 'Lobster'; */
     font-size: 3em;
     font-weight: 900;
     color: whitesmoke;
@@ -121,7 +121,7 @@ nav {
 
 .titre_site_page {
     width: 40%;
-    font-family: 'Lobster';
+    /* font-family: 'Lobster'; */
     font-size: 3em;
     font-weight: 800;
     color: whitesmoke;
@@ -131,7 +131,7 @@ nav {
 
 .titre_page {
     width: 40%;
-    font-family: 'Lobster';
+    /* font-family: 'Lobster'; */
     font-size: 3em;
     color: whitesmoke;
     text-align: center;
@@ -139,12 +139,12 @@ nav {
 }
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     text-align: center;
 }
 
 h2 {
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif; */
     text-align: center;
 }
 
