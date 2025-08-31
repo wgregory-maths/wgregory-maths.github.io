@@ -20,6 +20,16 @@ body {
     /* float: center; */
 }
 
+.zoneTextePourArchive {
+    background: #f0f0df;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    vertical-align: top;
+    /* float: center; */
+}
+
 header {
     align-items: center;
     justify-content: center;
@@ -222,6 +232,22 @@ h2 {
 }
 
     .docDoc:hover {
+        font-style: italic;
+        opacity: 0.7;
+    }
+
+
+.docDocArchive {
+    color: rgb(11, 102, 199);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 3px;
+    border-color: rgb(11, 102, 199);
+    justify-content: space-around;
+}
+
+    .docDocArchive:hover {
         font-style: italic;
         opacity: 0.7;
     }
