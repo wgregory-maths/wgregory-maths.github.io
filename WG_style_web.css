@@ -196,6 +196,13 @@ h2 {
     flex-direction: row;
 }
 
+.colonnesTrois {
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .colonnes {
     margin: auto;
     display: flex;
@@ -208,15 +215,17 @@ h2 {
     .colonnesDeux {
         width: 95%;
     }
+    .colonnesTrois {
+        width: 95%;
+    }
     }
 
 
 /* -------------------------------------------------- */
 /* Documents ---------------------------------------- */
 
-.docLesDocs {
+.docsLesDocs {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -224,11 +233,12 @@ h2 {
 .docDoc {
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: rgb(11, 102, 199);
     border-radius: 10px 10px 10px 10px;
-    margin: 3px;
+    margin: 0px 10px;
     justify-content: space-around;
+    white-space: nowrap;
 }
 
     .docDoc:hover {
@@ -242,9 +252,10 @@ h2 {
     text-align: center;
     padding: 5px;
     border-radius: 10px 10px 10px 10px;
-    margin: 3px;
+    margin: 0px 10px;
     border-color: rgb(11, 102, 199);
     justify-content: space-around;
+    white-space: nowrap;
 }
 
     .docDocArchive:hover {
