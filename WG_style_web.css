@@ -41,6 +41,19 @@ header {
     background-color: rgb(11, 102, 199);
 }
 
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(11, 102, 199);
+    color:whitesmoke;
+}
+
 summary {
     text-align: center;
 }
