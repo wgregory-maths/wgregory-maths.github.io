@@ -9,7 +9,7 @@ body {
     justify-content: center; */
     background-color: lightskyblue;
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    min-height: 100vh; /* Assure que le body prend au moins la hauteur de la fenêtre */
 }
 
 .zoneTexte {
@@ -18,7 +18,9 @@ body {
     border-radius: 10px 10px 10px 10px;
     padding: 10px;
     vertical-align: top;
-    /* float: center; */
+    /* float: center; */    
+    /* width: 80%; /* Ajuste la largeur pour un meilleur affichage */ 
+    box-sizing: border-box; /* Inclut les padding et border dans la largeur totale */
 }
 
 .zoneTextePourArchive {
@@ -39,7 +41,9 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: rgb(11, 102, 199);
+    background-color: rgb(11, 102, 199);    
+    width: 100%; /* Assure que le header prend toute la largeur */
+    box-sizing: border-box; /* Inclut les padding et border dans la largeur totale */
 }
 
 
@@ -52,7 +56,9 @@ footer {
     justify-content: space-around;
     padding: 20px;
     background-color: rgb(11, 102, 199);
-    color:whitesmoke;
+    color:whitesmoke;       
+    width: 100%; /* Assure que le footer prend toute la largeur */
+    box-sizing: border-box; /* Inclut les padding et border dans la largeur totale */ 
 }
 
 summary {
