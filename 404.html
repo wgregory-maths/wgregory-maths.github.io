@@ -2,40 +2,182 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Page déplacée - William GREGORY</title>
+
+<style>
+    :root {
+        --bg: #ffffff;
+        --surface: #f5f5f5;
+        --text: #202020;
+        --accent: #005bbb;
+        --border: #d1d5db;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: #121212;
+            --surface: #1d1d1d;
+            --text: #f2f2f2;
+            --accent: #60a5fa;
+            --border: #374151;
+        }
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    header {
+        padding: 1rem 2rem;
+        background: var(--surface);
+        border-bottom: 1px solid var(--border);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    header a {
+        color: var(--text);
+    }
+
+    main {
+        flex: 1;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        margin: 0 0 .75rem;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        margin: 2.5rem 0 1rem;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: .5rem;
+        padding: .6rem 1.4rem;
+        color: #fff;
+        background: var(--accent);
+        border-radius: 6px;
+    }
+
+    .btn:hover {
+        opacity: .9;
+    }
+
+    .cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cards a {
+        display: block;
+        margin-bottom: .75rem;
+        padding: 1rem 1.25rem;
+        color: inherit;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-left: 6px solid var(--accent);
+        border-radius: 8px;
+        transition: border-left-width .15s ease;
+    }
+
+    .cards a:hover {
+        border-left-width: 12px;
+    }
+
+    .cards strong {
+        display: block;
+    }
+
+    .cards span {
+        font-size: .85rem;
+        color: var(--accent);
+        word-break: break-all;
+    }
+
+    footer {
+        padding: 1rem 2rem;
+        background: var(--surface);
+        border-top: 1px solid var(--border);
+        font-size: .85rem;
+        text-align: center;
+        opacity: .8;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .cards a { transition: none; }
+    }
+</style>
 </head>
 
 <body>
 
-<h1>Cette page a été déplacée.</h1>
+<header>
+    <a href="https://williamgregory.fr/">William GREGORY</a>
+</header>
 
-<p>
-Mon nouveau site web est :
-<a href="https://williamgregory.fr/">https://williamgregory.fr</a>.
-</p>
+<main>
 
+    <h1>Cette page a été déplacée.</h1>
 
-<h2>Vous cherchez peut-être :</h2>
+    <p>
+        Le document que vous cherchez n'est plus disponible à cette adresse.
+        Mon site web a changé d'adresse :
+    </p>
 
-  <ul>
-    <li>Un sujet de colle 2024-2025 :
-    <a href="https://williamgregory.fr/enseignements/2024-2025/">
-    https://williamgregory.fr/enseignements/2024-2025/
-    </a>.
-    </li>
+    <p>
+        <a class="btn" href="https://williamgregory.fr/">Aller sur williamgregory.fr</a>
+    </p>
 
-    <li>Un sujet de colle 2025-2026 :
-    <a href="https://williamgregory.fr/enseignements/2025-2026/">
-    https://williamgregory.fr/enseignements/2025-2026/
-    </a>.
-    </li>
+    <h2>Vous cherchez peut-être :</h2>
 
-    <li>Une fiche de QCOP en SUP :
-    <a href="https://williamgregory.fr/ressources/qcop_sup/">
-    https://williamgregory.fr/ressources/qcop_sup/
-    </a>.
-    </li>
-  </ul>
+    <ul class="cards">
+        <li>
+            <a href="https://williamgregory.fr/enseignements/2024-2025/">
+                <strong>Un sujet de colle 2024-2025</strong>
+                <span>williamgregory.fr/enseignements/2024-2025/</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://williamgregory.fr/enseignements/2025-2026/">
+                <strong>Un sujet de colle 2025-2026</strong>
+                <span>williamgregory.fr/enseignements/2025-2026/</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://williamgregory.fr/ressources/qcop_sup/">
+                <strong>Une fiche de QCOP en SUP</strong>
+                <span>williamgregory.fr/ressources/qcop_sup/</span>
+            </a>
+        </li>
+    </ul>
+
+</main>
+
+<footer>
+    © William GREGORY
+</footer>
 
 </body>
 </html>
